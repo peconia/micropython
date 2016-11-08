@@ -3,36 +3,35 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-BBC micro:bit MicroPython documentation
+BBC micro:bit MicroPython dokumentaatio
 =======================================
 
-Welcome!
+Tervetuloa!
 
-The BBC micro:bit is a small computing device for children. One of the
-languages it understands is the popular Python programming language. The
-version of Python that runs on the BBC micro:bit is called MicroPython.
 
-This documentation includes lessons for teachers
-and API documentation for developers (check out the index on the left). We hope
-you enjoy developing for the BBC micro:bit using MicroPython.
+BBC Micro:bit on pieni tietokone joka on suunnattu lapsille avuksi ohjelmoinnin oppimiseen. Yksi sen ymmärtämistä
+ohjelmointikielistä on Python. Python on suosittu ohjelmointikieli, ja BBC Micro:bitin käyttämää Python-versiota kutsutaan MicroPythoniksi.
 
-If you're a new programmer, teacher or unsure where to start, begin with the tutorials.
+Tämä opas sisältää oppitunteja opettajille sekä
+API-dokumentaation ohjelmoijille (katso indeksi vasemmalla). Toivomme
+että nautit BBC Micro:bitin ohjelmoinnista MicroPythonin avulla.
+
+Jos olet uusi ohjelmoija, opettaja tai epävarma mistä aloittaa, suosittelemme että aloitat oppaista.
 
 .. image:: comic.png
 
-To get involved with the community subscribe to the microbit@python.org
-mailing list (https://mail.python.org/mailman/listinfo/microbit).
+Jos haluat osallistua Micro:bit yhteisöön, voit liittyä microbit@python.org postituslistalle osoitteessa
+(https://mail.python.org/mailman/listinfo/microbit). 
 
 .. note::
+   
+   Tätä projektia kehitetään aktiivisesti. Voit auttaa muita lisäämällä vinkkejä, oppaita, käännöksiä tai kysymyksiä & vastauksia (Q&A) tähän dokumentaatioon. Kiitos!
 
-    This project is under active development. Please help other
-    developers by adding tips, how-tos, and Q&A to this document.
-    Thanks!
+Seuraavat projektit liittyvät läheisesti BBC Micro:bitin ohjelmointiin MicroPythonilla:
 
-Projects related to MicroPython on the BBC micro:bit include:
+* `Mu <https://github.com/ntoll/mu>`_ - yksinkertainen koodin muokkausohjelma joka on suunnattu lapsille, opettajille ja aloittelijoille. Mu on todennäköisesti helpoin tapa ohjelmoida BBC Micro:bit käyttäen MicroPythonia.
+* `uFlash <https://uflash.readthedocs.io/en/latest/>`_ - komentorivityökalu jonka avulla voi siirtää lähdekoodia BBC Micro:bitin muistiin.
 
-* `Mu <https://github.com/ntoll/mu>`_ - a simple code editor for kids, teachers and beginner programmers. Probably the easiest way for people to program MicroPython on the BBC micro:bit.
-* `uFlash <https://uflash.readthedocs.io/en/latest/>`_ - a command line tool for flashing raw Python scripts onto a BBC micro:bit.
 
 .. toctree::
     :maxdepth: 2
